@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { EmpLoginComponent } from './emp-login/emp-login.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [EmpLoginComponent],
   imports: [
     CommonModule
   ]
